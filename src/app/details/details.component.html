@@ -1,0 +1,11 @@
+<div *ngIf="user$">
+
+</div>
+
+<h1>{{user$.name}}</h1>
+<ul>
+    <li>Username: {{user$.username}}</li>
+    <li>Email: {{user$.email}}</li>
+    <li>Phone: {{user$.phone}}</li>
+    <li>Website: <a href="https://{{user$.website}}">{{user$.website}}</a></li>
+</ul>
